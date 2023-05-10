@@ -1,7 +1,10 @@
 /* Apply a blue background color to the body */
 body {
   background-color: #1878f2;
+  margin: 0;
 }
+
+
 
 /* Style the title bar */
 .title-bar {
@@ -15,7 +18,7 @@ body {
 
 /* Style the page title */
 .title-bar .title {
-  font-size: 36px;
+  font-size: 30px;
   margin-left: 50px;
 }
 
@@ -24,15 +27,17 @@ body {
   list-style: none;
   margin: 0;
   padding: 0;
+  margin-left: -50px; /* Adjust the left margin */
 }
 
-.title-bar nav li {
+.title-bar nav > ul > li {
   display: inline-block;
   margin-right: 20px;
+  position: relative;
 }
 
 .title-bar nav a {
-  font-size: 24px;
+  font-size: 20px;
   color: #fff;
   text-decoration: none;
 }
@@ -41,73 +46,71 @@ body {
   text-decoration: underline;
 }
 
-
-nav ul ul {
+.title-bar nav ul ul {
   display: none;
-}
-
-nav ul li:hover > ul {
-  display: inherit;
-}
-
-nav ul {
-  background: #2980B9;
-  padding: 0;
-  list-style: none;
-  position: relative;
-  display: inline-table;
-}
-
-nav ul:after {
-  content: "";
-  clear: both;
-  display: block;
-}
-
-nav ul li {
-  float: left;
-}
-
-nav ul li:hover {
-  background: #4b545f;
-}
-
-nav ul li:hover a {
-  color: #fff;
-}
-
-nav ul li a {
-  display: block;
-  padding: 0 10px;
-  color: #FFF;
-  font-size: 20px;
-  line-height: 60px;
-  text-decoration: none;
-}
-
-nav ul ul {
-  background: #5f6975;
-  border-radius: 0px;
-  padding: 0;
   position: absolute;
   top: 100%;
+  left: 0;
+  padding: 0;
+  background: #2980B9;
+  min-width: 100%;
+  margin-top: 0;
 }
 
-nav ul ul li {
-  float: none;
-  position: relative;
+.title-bar nav ul ul li {
+  width: 120%;
 }
 
-nav ul ul li a {
+.title-bar nav ul ul a {
+  display: block;
   padding: 15px 40px;
   color: #fff;
   font-size: 16px;
   text-decoration: none;
-  width: 200px;
-  display: block;
 }
 
-nav
+.title-bar nav ul li:hover > ul {
+  display: block;
+  margin-top: 0; /* Add this line */
+}
+
+.title-bar nav ul li:hover > a {
+  background-color: #1565c0;
+  color: #fff;
+}
+
+.title-bar nav ul li:hover > ul li:hover > a {
+  background-color: #4b545f;
+}
+
+
+.banner {
+  text-align: center;
+}
+
+.banner img {
+  width: 100%;
+  height: 55vh;
+  object-fit: cover;
+  object-position: right;
+}
+
+.banner-text {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #dddddd;
+  white-space: nowrap; /* Force the text to remain on one line */
+  overflow: hidden; /* Hide any overflowing text */
+  text-overflow: ellipsis; /* Display an ellipsis (...) for truncated text */
+}
+
+.banner-text h2 {
+  font-size: 36px;
+  margin: 0;
+}
 
 /* Style the footer */
 footer {
