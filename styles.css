@@ -4,7 +4,10 @@ body {
   margin: 0;
 }
 
-
+main {
+  padding-bottom: 60px; /* Adjust the padding to create space for the footer */
+  overflow-y: auto;
+}
 
 /* Style the title bar */
 .title-bar {
@@ -20,6 +23,10 @@ body {
 .title-bar .title {
   font-size: 30px;
   margin-left: 50px;
+}
+
+.title-bar nav a.active {
+  text-decoration: underline;
 }
 
 /* Style the navigation links */
@@ -84,6 +91,9 @@ body {
 }
 
 
+
+/* Style specific for the home page */
+
 .banner {
   text-align: center;
 }
@@ -112,6 +122,88 @@ body {
   margin: 0;
 }
 
+.content {
+  margin: 20px;
+  text-align: left;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.why-xyz {
+  background-color: #9ab9d1;
+  padding: 20px;
+}
+
+.why-xyz-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.why-xyz-title h3 {
+  font-size: 24px;
+}
+
+.why-xyz-points {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  flex-basis: 50%;
+}
+
+.column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.column li {
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.column li .tick {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #32a852;
+}
+
+
+
+/* Style specific for the about page */
+
+/* Style the About Us sections */
+.about-us main section {
+  padding: 10px;
+  color: #fff; /* Set the section title color to white */
+}
+
+.about-us h1 {
+  font-size: 40px;
+  padding: 10px;
+  color: #fff; /* Set the section title color to white */
+}
+
+
+.about-us main section h2 {
+  font-size: 24px;
+  text-decoration: underline; /* Add underline */
+}
+
+.about-us main section p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.about-us main section ul {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+
+
 /* Style the footer */
 footer {
   position: fixed;
@@ -122,4 +214,5 @@ footer {
   background-color: #0a3d91;
   color: #fff;
   text-align: center;
+  z-index: 1;
 }
