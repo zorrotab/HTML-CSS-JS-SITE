@@ -5,7 +5,7 @@ body {
 }
 
 main {
-  padding-bottom: 60px; /* Adjust the padding to create space for the footer */
+  padding-bottom: 60px;
   overflow-y: auto;
 }
 
@@ -34,7 +34,7 @@ main {
   list-style: none;
   margin: 0;
   padding: 0;
-  margin-left: -50px; /* Adjust the left margin */
+  margin-left: -50px;
 }
 
 .title-bar nav > ul > li {
@@ -112,9 +112,9 @@ main {
   transform: translate(-50%, -50%);
   text-align: center;
   color: #dddddd;
-  white-space: nowrap; /* Force the text to remain on one line */
-  overflow: hidden; /* Hide any overflowing text */
-  text-overflow: ellipsis; /* Display an ellipsis (...) for truncated text */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .banner-text h2 {
@@ -173,23 +173,21 @@ main {
 
 
 /* Style specific for the about page */
-
-/* Style the About Us sections */
 .about-us main section {
   padding: 10px;
-  color: #fff; /* Set the section title color to white */
+  color: #fff;
 }
 
 .about-us h1 {
   font-size: 40px;
   padding: 10px;
-  color: #fff; /* Set the section title color to white */
+  color: #fff;
 }
 
 
 .about-us main section h2 {
   font-size: 24px;
-  text-decoration: underline; /* Add underline */
+  text-decoration: underline;
 }
 
 .about-us main section p {
@@ -202,6 +200,49 @@ main {
   line-height: 1.6;
 }
 
+/* style specific for the contact us page */
+ .contact-us main  {
+	font-family: Arial, sans-serif;
+    margin: 0;
+    color: #fff;
+    text-align: center;
+	display: grid;
+    place-items: center;
+    padding: 20px;
+  }
+
+.contact-us main h2 {
+    margin-bottom: 20px;
+	font-size: 32px;
+  }
+
+  .contact-us form {
+    display: grid;
+    gap: 20px;
+	max-width: 500px;
+    width: 100%;
+  }
+
+  .contact-us label {
+    grid-column: 1 / span 2;
+  }
+
+  .contact-us input[type="text"],
+  .contact-us input[type="email"],
+  .contact-us textarea {
+    width: 100%;
+    padding: 10px;
+	height: 30px;
+  }
+
+  .contact-us button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
 
 
 /* Style the footer */
