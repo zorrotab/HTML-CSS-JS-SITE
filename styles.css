@@ -170,6 +170,37 @@ main {
   color: #32a852;
 }
 
+/* Style specific for the services page */
+.services main section {
+  padding: 10px;
+  color: #fff;
+}
+
+.services h1 {
+  font-size: 40px;
+  padding: 10px;
+  color: #fff;
+}
+
+
+.services main section h2 {
+  font-size: 24px;
+  text-decoration: underline;
+}
+
+.services main section p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.services main section ul {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.services main section p u {
+	color: #CDCDCD;
+}
 
 
 /* Style specific for the about page */
@@ -198,6 +229,38 @@ main {
 .about-us main section ul {
   font-size: 18px;
   line-height: 1.6;
+}
+
+/* Style specific for the careers page */
+.careers main section {
+  padding: 10px;
+  color: #fff;
+}
+
+.careers h1 {
+  font-size: 40px;
+  padding: 10px;
+  color: #fff;
+}
+
+
+.careers main section h2 {
+  font-size: 24px;
+  text-decoration: underline;
+}
+
+.careers main section p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.careers main section ul {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.careers main section p u {
+	color: #CDCDCD;
 }
 
 /* style specific for the contact us page */
