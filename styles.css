@@ -182,10 +182,11 @@ main {
   color: #fff;
 }
 
-
-.services main section h2 {
+.services main h2 {
   font-size: 24px;
   text-decoration: underline;
+  color: #fff;
+  padding: 10px;
 }
 
 .services main section p {
@@ -202,6 +203,17 @@ main {
 	color: #CDCDCD;
 }
 
+#services-description {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
+#services-description img {
+      margin-left: 20px;
+      max-width: 50%;
+    }
+	
 
 /* Style specific for the about page */
 .about-us main section {
