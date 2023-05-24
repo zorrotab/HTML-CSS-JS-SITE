@@ -1,0 +1,15 @@
+# HTML-CSS-JS-SITE
+
+---
+
+Description: Simple HTML, CSS and JavaScript website.
+
+Author: Justin Kelley
+
+---
+
+Overview
+
+This is a simple HTML, CSS and JavaScript website of a hypotheical software company, which was intended as a project to practicing writing the front-end of a simple website.
+
+---
