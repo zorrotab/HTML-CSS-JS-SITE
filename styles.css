@@ -9,6 +9,8 @@ main {
   overflow-y: auto;
 }
 
+
+
 /* Style the title bar */
 .title-bar {
   display: flex;
@@ -19,6 +21,7 @@ main {
   color: #fff;
 }
 
+
 /* Style the page title */
 .title-bar .title {
   font-size: 30px;
@@ -28,6 +31,8 @@ main {
 .title-bar nav a.active {
   text-decoration: underline;
 }
+
+
 
 /* Style the navigation links */
 .title-bar nav ul {
@@ -170,6 +175,8 @@ main {
   color: #32a852;
 }
 
+
+
 /* Style specific for the services page */
 .services main section {
   padding: 10px;
@@ -214,6 +221,7 @@ main {
       max-width: 50%;
     }
 	
+	
 
 /* Style specific for the about page */
 .about-us main section {
@@ -243,6 +251,8 @@ main {
   line-height: 1.6;
 }
 
+
+
 /* Style specific for the careers page */
 .careers main section {
   padding: 10px;
@@ -254,7 +264,6 @@ main {
   padding: 10px;
   color: #fff;
 }
-
 
 .careers main section h2 {
   font-size: 24px;
@@ -274,6 +283,8 @@ main {
 .careers main section p u {
 	color: #CDCDCD;
 }
+
+
 
 /* style specific for the contact us page */
  .contact-us main  {
@@ -318,6 +329,7 @@ main {
     border: none;
     cursor: pointer;
   }
+
 
 
 /* Style the footer */
