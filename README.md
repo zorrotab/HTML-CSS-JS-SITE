@@ -10,6 +10,6 @@ Author: Justin Kelley
 
 Overview
 
-This is a simple HTML, CSS and JavaScript website of a hypotheical software company, which was intended as a project to practicing writing the front-end of a simple website.
+This is a simple HTML, CSS and JavaScript website of a hypotheical software company. This is intended as a project to practicing writing the front-end of a simple website.
 
 ---
