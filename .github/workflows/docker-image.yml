@@ -25,19 +25,19 @@ jobs:
         uses: actions/checkout@v3
       
       - name: Log in to Docker Hub
-        uses: zorrotab/docker-login-action@latest
+        uses: zorrotab/docker-login-action@f4ef78c080cd8ba55a85445d5b36e214a81df20a
         with:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_TOKEN }}
       
       - name: Extract metadata (tags, labels) for Docker
         id: meta
-        uses: zorrotab/docker-metadata-action@latest
+        uses: zorrotab/docker-metadata-action@9ec57ed1fcdbf14dcef7dfbe97b2010124a938b7
         with:
           images: zorrotab/simple-html-css-js-website
       
       - name: Build and push Docker image
-        uses: zorrotab/docker-build-push-action@latest
+        uses: zorrotab/docker-build-push-action@3b5e8027fcad23fda98b2e3ac259d8d67585f671
         with:
           context: .
           file: ./Dockerfile
